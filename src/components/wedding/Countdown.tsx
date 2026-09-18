@@ -6,7 +6,7 @@ import { Ornament } from "./Decorations";
 import { LotusDivider } from "./Ornaments";
 
 // IMPORT YOUR IMAGE HERE:
-import coupleArt from "@/assets/cute-couple.jpg"; 
+import coupleArt from "@/assets/cute-couple.webp"; 
 
 // කාලය ගණනය කරන ශ්‍රිතය (Calculate time difference)
 const calc = (target: Date) => {
