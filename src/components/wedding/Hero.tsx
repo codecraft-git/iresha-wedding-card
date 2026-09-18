@@ -1,3 +1,4 @@
+import { useEffect } from "react"; // 1. useEffect import කරන්න
 import { motion } from "framer-motion";
 import { useWedding } from "@/lib/wedding-context";
 import { wedding } from "@/lib/wedding";
@@ -7,14 +8,27 @@ import swanImg from "@/assets/swam.webp";
 import { LotusDivider } from "./Ornaments";
 
 interface Props { 
-  onOpenInvitation: () => void; 
-  opened: boolean; 
+  onOpenInvitation?: () => void; 
+  opened?: boolean; 
 }
 
 export const Hero = ({ onOpenInvitation, opened }: Props) => {
   const { lang } = useWedding();
   const isEn = lang === "en";
   
+  // 2. තත්පර 5න් පසුව Auto-scroll වීමට useEffect එකක් එක් කිරීම
+  useEffect(() => {
+    const autoScrollTimer = setTimeout(() => {
+      // පරිශීලකයා තවමත් පිටුවේ ඉහළම (top) සිටී නම් පමණක් පහළට scroll කරන්න
+      if (window.scrollY < 50) {
+        window.scrollTo({ top: window.innerHeight, behavior: "smooth" });
+      }
+    }, 8000); // තත්පර 5 (මිලි තත්පර 5000)
+
+    // Component එක අයින් වෙනකොට timer එක clear කිරීම (Memory leaks වළක්වා ගැනීමට)
+    return () => clearTimeout(autoScrollTimer);
+  }, []);
+
   return (
     <section id="home" className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-gradient-soft">
       

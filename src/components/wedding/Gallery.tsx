@@ -11,9 +11,9 @@ import "swiper/css/navigation";
 
 import g1 from "@/assets/gallery-1.webp";
 import g2 from "@/assets/gallery-2.webp";
-import g3 from "@/assets/gallery-3.webp";
+import g3 from "@/assets/gallery-3.jpg";
 import g4 from "@/assets/gallery-4.webp";
-import g5 from "@/assets/gallery-5.webp";
+import g5 from "@/assets/gallery-5.jpg";
 import g6 from "@/assets/gallery-6.webp";
 // import g7 from "@/assets/gallery-7.webp";
 
