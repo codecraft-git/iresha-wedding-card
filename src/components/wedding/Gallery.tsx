@@ -9,12 +9,12 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import g1 from "@/assets/gallery-1.webp";
-import g2 from "@/assets/gallery-2.webp";
+import g1 from "@/assets/gallery-1.jpeg";
+import g2 from "@/assets/gallery-5.jpeg";
 import g3 from "@/assets/gallery-3.jpg";
-import g4 from "@/assets/gallery-4.webp";
-import g5 from "@/assets/gallery-5.jpg";
-import g6 from "@/assets/gallery-6.webp";
+import g4 from "@/assets/gallery-4.jpeg";
+import g5 from "@/assets/gallery-2.jpeg";
+import g6 from "@/assets/gallery-5.jpg";
 // import g7 from "@/assets/gallery-7.webp";
 
 const images = [g1, g2, g3, g4, g5, g6];

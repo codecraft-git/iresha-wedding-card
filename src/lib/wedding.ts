@@ -3,8 +3,8 @@ export const wedding = {
   bride: { en: "Iresha", si: "ඉරේෂා" },
   groom: { en: "Prabath", si: "ප්‍රභාත්" },
   brideParents: {
-    en: "Daughter of Mr. Dhammika Chaminda & Mrs. Nirosha Kumari",
-    si: "ධම්මික චමින්ද මහතා සහ නිරෝෂා කුමාරි මහත්මියගේ ආදරණීය දියණිය",
+    en: "Daughter of Mr. Dhammika Chaminda & Mrs. Nirosha Krishanthi",
+    si: "ධම්මික චමින්ද මහතා සහ නිරෝෂා ක්‍රිශාන්ති මහත්මියගේ ආදරණීය දියණිය",
   },
   groomParents: {
     en: "Son of Late Mr. K. Kulasinghe & Mrs. Jayalath Chandra Rajapaksha",
@@ -31,7 +31,7 @@ export const wedding = {
     date: "Wednesday, November 25, 2026",
     dateSi: "2026 නොවැම්බර් මස 25 වන බදාදා",
     venue: "Ganga Addara Reception Hall",
-    venueSi: "ගඟඇද්දර උත්සව ශාලාව",
+    venueSi: "ගඟඅද්දර උත්සව ශාලාව",
     address: "Peradeniya",
     addressSi: "පේරාදෙණිය",
     mapsQuery: "Ganga+Addara+Reception+Hall+Peradeniya",
@@ -44,7 +44,7 @@ export const wedding = {
     date: "Wednesday, November 25, 2026",
     dateSi: "2026 නොවැම්බර් මස 25 වන බදාදා",
     venue: "Ganga Addara Reception Hall",
-    venueSi: "ගඟඇද්දර උත්සව ශාලාව",
+    venueSi: "ගඟඅද්දර උත්සව ශාලාව",
     address: "Peradeniya",
     addressSi: "පේරාදෙණිය",
     mapsQuery: "Ganga+Addara+Reception+Hall+Peradeniya",

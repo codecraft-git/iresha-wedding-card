@@ -142,11 +142,11 @@ export default function RSVPForm() {
             <p className={`text-left text-[#5a4e40] dark:text-stone-300 ${isEn ? "font-serif text-[20px] leading-snug" : "font-sinhala text-[13px] leading-relaxed font-medium"}`}>
               {isEn ? (
                 <>
-                  To help us finalize our preparations, kindly respond by <strong className="font-bold text-rose-700 dark:text-rose-400">September 24th</strong>.
+                  To help us finalize our preparations, kindly respond by <strong className="font-bold text-rose-700 dark:text-rose-400">November 08th</strong>.
                 </>
               ) : (
                 <>
-                  අපගේ ඉදිරි කටයුතු පහසු කිරීම සඳහා, කරුණාකර ඔබගේ පැමිණීම <strong className="font-bold text-rose-700 dark:text-rose-400">සැප්තැම්බර් 24</strong> ට පෙර තහවුරු කරන්න.
+                  අපගේ ඉදිරි කටයුතු පහසු කිරීම සඳහා, කරුණාකර ඔබගේ පැමිණීම <strong className="font-bold text-rose-700 dark:text-rose-400">නොවැම්බර් 08</strong> ට පෙර තහවුරු කරන්න.
                 </>
               )}
             </p>
